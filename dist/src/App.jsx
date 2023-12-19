@@ -18,7 +18,7 @@ function App() {
 
   const getImageUrl = (puppyName) => {
     const formattedName = puppyName;
-    return `dist/assets/${formattedName}.jpg`; // Adjust as necessary for images
+    return `./assets/${formattedName}.jpg`; // Adjust as necessary for images
   };
   
   return (
